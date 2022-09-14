@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * prints_times_table - prints the n times table, starting from 0
+ * print_times_table - prints the n times table, starting from 0
  * @n: number of times table
  */
 void print_times_table(int n)
 {
 	int a;
-	int b; 
+	int b;
 	int c;
 
 	if (n >= 0 && n <= 15)
