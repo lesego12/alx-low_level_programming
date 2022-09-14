@@ -3,11 +3,13 @@
 /**
  * main - computes and prints the sum of all multiples
  * of 3 or 5 below 1024
- * Return: A;ways 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	unsigned long int sum3; sum5; sum;
+	unsigned long int sum3;
+	unsigned long int sum5;
+	unsigned long int sum;
 	int i;
 
 	sum3 = 0;
