@@ -16,14 +16,14 @@ int main(void)
 
 	for (a =1; a <= 89; ++a)
 	{
-		if (j < 4000000 && (j % 2) == 0)
+		if (b < 4000000 && (b % 2) == 0)
 		{
 			sum = sum + b;
 		}
-		next b + c;
+		next = b + c;
 		b = c;
 		c = next;
 	}
-	printf("lu\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
