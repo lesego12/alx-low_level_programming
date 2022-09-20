@@ -18,4 +18,6 @@ File 8-print _array.c is a function that prints n elements of an array of intege
 
 File 9-strcpy.c is a function that copies a string pointed to by src, includng the terminating null byte (\0), to the buffer pointed to by the dest.
 
-File 10-atoi.c is a function that connects a string to an integer.
+File 100-atoi.c is a function that connects a string to an integer.
+
+File 101-keygen.c is a function creates a program that generates random valid passwords for the program 101-crackme
