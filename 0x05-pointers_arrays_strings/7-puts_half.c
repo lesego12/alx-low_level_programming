@@ -14,7 +14,7 @@ void puts_half(char *str)
 	{
 		a++;
 	}
-	 if (a % == 0)
+	 if (a % 2 == 0)
 	 {
 		 (c = a / 2; str[c] != '\0'; c++);
 		 {
