@@ -9,3 +9,6 @@ File 3-puts.c is a function that prints a string followed bt a new line, to stdo
 File 4-print_rev.c is a function that prints a string, in reverse, followed by a new line.
 
 File 5-rev_string.c is a function that reverses a string.
+
+File 6-puts2.c is a function that prints every character of a string, starting with the first character, followed by a new line.
+
