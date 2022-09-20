@@ -15,3 +15,5 @@ File 6-puts2.c is a function that prints every character of a string, starting w
 File 7-puts_half.c is a function that prints have a string, followed by a new line.
 
 File 8-print _array.c is a function that prints n elements of an array of integers, followed by a new line.
+
+File 9-strcpy.c is a function that copies a string pointed to by src, includng the terminating null byte (\0), to the buffer pointed to by the dest.
