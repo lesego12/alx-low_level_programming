@@ -1,12 +1,10 @@
 #include "main.h"
 
-#include <stdio.h>
-
 
 
 /**
  *
- *  * main - check the code for
+ *  * main - check the code
  *
  *   *
  *
@@ -18,18 +16,26 @@ int main(void)
 
 {
 
-	    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
+	    print_number(98);
 
-	        char *p;
+	        _putchar('\n');
 
+		    print_number(402);
 
+		        _putchar('\n');
 
-		    p = leet(s);
+			    print_number(1024);
 
-		        printf("%s", p);
+			        _putchar('\n');
 
-			    printf("%s", s);
+				    print_number(0);
 
-			        return (0);
+				        _putchar('\n');
+
+					    print_number(-98);
+
+					        _putchar('\n');
+
+						    return (0);
 
 }
