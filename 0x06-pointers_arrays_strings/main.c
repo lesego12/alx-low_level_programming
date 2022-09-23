@@ -6,7 +6,7 @@
 
 /**
  *
- *  * main - check the code
+ *  * main - check the code for
  *
  *   *
  *
@@ -18,17 +18,17 @@ int main(void)
 
 {
 
-	    char str[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+	    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
 
-	        char *ptr;
+	        char *p;
 
 
 
-		    ptr = cap_string(str);
+		    p = leet(s);
 
-		        printf("%s", ptr);
+		        printf("%s", p);
 
-			    printf("%s", str);
+			    printf("%s", s);
 
 			        return (0);
 
