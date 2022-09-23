@@ -7,27 +7,30 @@
  */
 char *cap_string(char *s)
 {
-	int a;
-	int b;
+	int index = 0;
 
-	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
-		'!', '?', '"', '(', ')', '{', '}'}
-
-	for (a = 0; s[a] != '\0'; a++)
+	while (s[index])
 	{
-		if (a == 0 && s[a] >= 'a' && s[a] <= 'z')
-			s[a] -= 32;
+		while (!(s[index] >= 'a' && s[index] <= 'z'))
+			index++;
 
-		for (b = 0; b < 13; b++)
-		{
-			if (s[a] == spe[b])
-			{
-				if (s[a + 1] >= 'a' && s[a + 1] <= 'z')
-				{
-					s[a + 1] -= 32;
-				}
-			}
-		}
+		if (s[index - 1] == ' ' ||
+			s[index - 1] == '\t' ||
+			s[index - 1] == '\n' ||
+			s[index - 1] == ',' ||
+			s[index - 1] == ';' ||
+			s[index - 1] == '.' ||
+			s[index - 1] == '!' ||
+			s[index - 1] == '?' ||
+			s[index - 1] == '"' ||
+			s[index - 1] == '(' ||
+			s[index - 1] == ')' ||
+			s[index - 1] == '{' ||
+			s[index - 1] == '}' ||
+			index == 0)
+			s[index] -= 32;
+
+		index++;
 	}
 
 	return (s);
