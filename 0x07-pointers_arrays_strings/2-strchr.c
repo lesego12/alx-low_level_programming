@@ -7,9 +7,9 @@
  *  Return: a pointer to the first occurrence of the character c
  *  in the string s, or NULL if the character is not found
  */
-char *_memcpy(char *s, char c)
+char *_strchr(char *s, char c)
 {
-	int i;
+	int a;
 
 	while (1)
 	{
@@ -21,7 +21,7 @@ char *_memcpy(char *s, char c)
 		}
 		if (a == 0)
 		{
-			return (NULL):
+			return (NULL);
 		}
 	}
 }
