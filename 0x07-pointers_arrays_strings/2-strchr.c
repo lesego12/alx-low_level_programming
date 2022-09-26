@@ -1,0 +1,27 @@
+#include "main.h"
+
+/**
+ *  _strchr - locate a character in a string
+ *  @s: string to check
+ *  @c: character to locate
+ *  Return: a pointer to the first occurrence of the character c
+ *  in the string s, or NULL if the character is not found
+ */
+char *_memcpy(char *s, char c)
+{
+	int i;
+
+	while (1)
+	{
+
+		a = *s++;
+		if (a == c)
+		{
+			return (s - 1);
+		}
+		if (a == 0)
+		{
+			return (NULL):
+		}
+	}
+}
