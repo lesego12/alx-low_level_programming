@@ -17,3 +17,5 @@ File _putchar is a function that replaces the standard library function putchar(
 FILE 8-print_diagsums.c is a function that prints the sum of the two diagonals of a square matrix of integers.
 
 FILE 100-set_string.c is a function taht sets the value of a pointer to a char.
+
+FILE 101-crackme_password contains the password for the crackme2 executable.
