@@ -9,3 +9,5 @@ FILE 3-strspn.c is a function that gets the length of a prefix substring.
 FILE 4-strpbrk.c is a function that seraches a string for any of a set of bytes.
 
 FILE 5-strstr.c is a function that locates a substring.
+
+FILE 7-print_chessboard.c is a function that prints a chessboard.
