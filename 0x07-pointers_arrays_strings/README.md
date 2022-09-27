@@ -13,3 +13,5 @@ FILE 5-strstr.c is a function that locates a substring.
 FILE 7-print_chessboard.c is a function that prints a chessboard.
 
 File _putchar is a function that replaces the standard library function putchar().
+
+FILE 8-print_diagsums.c is a function that prints the sum of the two diagonals of a square matrix of integers.
