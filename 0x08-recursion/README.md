@@ -6,4 +6,6 @@ FILE 2-strlen_recursion.c is a function that returns the length of a string.
 
 FILE 3-factorial.c is a function that returns the factorial of a given number.
 
-FILE 4-pow_recursion.c function that returns the value of x raised to the power of y.
+FILE 4-pow_recursion.c is function that returns the value of x raised to the power of y.
+
+FILE 5-sqrt_recursion.c is a function that returns the natural square root of a number.
