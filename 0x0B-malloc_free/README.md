@@ -5,3 +5,5 @@ FILE 1-strdup.c is a function that returns a pointer to a newly allocated space 
 FILE 2-str_concat.c is a function that concatenates two strings.
 
 FILE 3-alloc_grid.c is a function that returns a pointer to a 2 dimensional array of integers.
+
+FILE 4-free_grid.c is a function that frees a 2 dimensional grid previously created by your alloc_grid function.
