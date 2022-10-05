@@ -3,3 +3,5 @@ FILE 0-create_array.c is a function that creates an array of chars, and initiate
 FILE 1-strdup.c is a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 
 FILE 2-str_concat.c is a function that concatenates two strings.
+
+FILE 3-alloc_grid.c is a function that returns a pointer to a 2 dimensional array of integers.
