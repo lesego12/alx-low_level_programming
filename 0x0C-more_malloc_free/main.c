@@ -22,7 +22,7 @@
  *
  *       */
 
-void simple_print_buffer(char *buffer, unsigned int size)
+void simple_print_buffer(int *buffer, unsigned int size)
 
 {
 
@@ -78,22 +78,16 @@ int main(void)
 
 {
 
-	    char *a;
+	    int *a;
 
 
 
-	        a = _calloc(98, sizeof(char));
+	        a = array_range(0, 10);
 
-		    strcpy(a, "Best");
+		    simple_print_buffer(a, 11);
 
-		        strcpy(a + 4, " School! :)\n");
+		        free(a);
 
-			    a[97] = '!';
-
-			        simple_print_buffer(a, 98);
-
-				    free(a);
-
-				        return (0);
+			    return (0);
 
 }
