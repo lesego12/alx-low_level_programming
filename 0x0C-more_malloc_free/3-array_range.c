@@ -5,11 +5,11 @@
  * *array_range - creates an array of integers
  * @min: minimum range of values stored
  * @max: maximum range of values stored and number of elements
- * Return: to the new array
+ * Return: pointer to the new array
  */
-int *array_range(int min, int max);
+int *array_range(int min, int max)
 {
-	int *ptr
+	int *ptr;
 	int i;
 	int size;
 
@@ -18,7 +18,7 @@ int *array_range(int min, int max);
 
 	size = max - min + 1;
 
-	ptr = malloc(size * sizeof(int));
+	ptr = malloc(sizeof(int) * size);
 
 	if (ptr == NULL)
 		return (NULL);
