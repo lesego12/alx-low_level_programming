@@ -1,8 +1,8 @@
-#include "1-pi.h"
-
-#include "1-pi.h"
-
 #include <stdio.h>
+
+#include "3-function_like_macro.h"
+
+#include "3-function_like_macro.h"
 
 
 
@@ -20,17 +20,17 @@ int main(void)
 
 {
 
-	    float a;
+	    int i;
 
-	        float r;
+	        int j;
 
 
 
-		    r = 98;
+		    i = ABS(-98) * 10;
 
-		        a = PI * r * r;
+		        j = ABS(98) * 10;
 
-			    printf("%.3f\n", a);
+			    printf("%d, %d\n", i, j);
 
 			        return (0);
 
