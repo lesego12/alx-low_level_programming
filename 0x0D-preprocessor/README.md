@@ -1,1 +1,5 @@
-FILE 0-object_like_macro.h is is a header file that defines a macro named size and an abbreviation for the token 1024.
+FILE 0-object_like_macro.h is a header file that defines a macro named size and an abbreviation for the token 1024.
+
+FILE 1-pi.h is a header file that defines a macro named PI and an abbreviation for the token 3.14159265359.
+
+FILE 2-main.c is a program that prints the name of the file it was complied from.
