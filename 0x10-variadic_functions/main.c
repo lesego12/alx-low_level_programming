@@ -16,7 +16,7 @@ int main(void)
 
 {
 
-	    print_strings(", ", 2, "Jay", "Django");
+	    print_all("ceis", 'B', 3, "stSchool");
 
 	        return (0);
 
