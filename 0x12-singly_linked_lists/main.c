@@ -54,26 +54,14 @@ int main(void)
 
 						    head = new;
 
-						        n = print_list(head);
+						        n = list_len(head);
 
 							    printf("-> %lu elements\n", n);
 
+							        free(new->str);
 
+								    free(new);
 
-							        printf("\n");
-
-								    free(new->str);
-
-								        new->str = NULL;
-
-									    n = print_list(head);
-
-									        printf("-> %lu elements\n", n);
-
-
-
-										    free(new);
-
-										        return (0);
+								        return (0);
 
 }
