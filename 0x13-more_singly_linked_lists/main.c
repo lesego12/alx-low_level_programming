@@ -46,6 +46,10 @@ int main(void)
 
 						    print_listint(head);
 
-						        return (0);
+						        free_listint(head);
+
+							    head = NULL;
+
+							        return (0);
 
 }
