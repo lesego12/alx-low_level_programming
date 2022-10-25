@@ -7,3 +7,5 @@ FILE 2-add_nodeint.ca is a function that adds a new node at the beginning of a l
 FILE 3-add_nodeint_end.c is a function that adds a new node at the end of a listint_t list.
 
 FILE 4-free_listint.c is a function that frees a listint_t list.
+
+FILE 5-free_listint2.c is a function that frees a listint_t list.
