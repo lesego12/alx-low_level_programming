@@ -24,34 +24,52 @@ int main(void)
 
 	    listint_t *head;
 
+	        listint_t *head2;
+
+		    listint_t *node;
 
 
-	        head = NULL;
 
-		    add_nodeint_end(&head, 0);
+		        head2 = NULL;
 
-		        add_nodeint_end(&head, 1);
+			    add_nodeint(&head2, 0);
 
-			    add_nodeint_end(&head, 2);
+			        add_nodeint(&head2, 1);
 
-			        add_nodeint_end(&head, 3);
+				    add_nodeint(&head2, 2);
 
-				    add_nodeint_end(&head, 4);
+				        add_nodeint(&head2, 3);
 
-				        add_nodeint_end(&head, 98);
+					    add_nodeint(&head2, 4);
 
-					    add_nodeint_end(&head, 402);
+					        add_nodeint(&head2, 98);
 
-					        add_nodeint_end(&head, 1024);
+						    add_nodeint(&head2, 402);
 
-						    print_listint(head);
+						        add_nodeint(&head2, 1024);
 
-						        reverse_listint(&head);
+							    print_listint_safe(head2);
 
-							    print_listint(head);    
+							        head = NULL;
 
-							        free_listint2(&head);
+								    node = add_nodeint(&head, 0);
 
-								    return (0);
+								        add_nodeint(&head, 1);
+
+									    add_nodeint(&head, 2);
+
+									        add_nodeint(&head, 3);
+
+										    add_nodeint(&head, 4);
+
+										        node->next = add_nodeint(&head, 98);
+
+											    add_nodeint(&head, 402);
+
+											        add_nodeint(&head, 1024);
+
+												    print_listint_safe(head);
+
+												        return (0);
 
 }
