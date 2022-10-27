@@ -18,28 +18,26 @@ int main(void)
 
 {
 
-	    unsigned long int n;
+	    unsigned int n;
 
 
 
-	        n = 1024;
+	        n = flip_bits(1024, 1);
 
-		    clear_bit(&n, 10);
+		    printf("%u\n", n);
 
-		        printf("%lu\n", n);
+		        n = flip_bits(402, 98);
 
-			    n = 0;
+			    printf("%u\n", n);
 
-			        clear_bit(&n, 10);
+			        n = flip_bits(1024, 3);
 
-				    printf("%lu\n", n);
+				    printf("%u\n", n);
 
-				        n = 98;
+				        n = flip_bits(1024, 1025);
 
-					    clear_bit(&n, 1);
+					    printf("%u\n", n);
 
-					        printf("%lu\n", n);
-
-						    return (0);
+					        return (0);
 
 }
