@@ -18,22 +18,28 @@ int main(void)
 
 {
 
-	    int n;
+	    unsigned long int n;
 
 
 
-	        n = get_bit(1024, 10);
+	        n = 1024;
 
-		    printf("%d\n", n);
+		    set_bit(&n, 5);
 
-		        n = get_bit(98, 1);
+		        printf("%lu\n", n);
 
-			    printf("%d\n", n);
+			    n = 0;
 
-			        n = get_bit(1024, 0);
+			        set_bit(&n, 10);
 
-				    printf("%d\n", n);
+				    printf("%lu\n", n);
 
-				        return (0);
+				        n = 98;
+
+					    set_bit(&n, 0);
+
+					        printf("%lu\n", n);
+
+						    return (0);
 
 }
