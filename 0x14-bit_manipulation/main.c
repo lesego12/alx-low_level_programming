@@ -18,30 +18,26 @@ int main(void)
 
 {
 
-	    unsigned int n;
+	    print_binary(0);
 
+	        printf("\n");
 
+		    print_binary(1);
 
-	        n = binary_to_uint("1");
+		        printf("\n");
 
-		    printf("%u\n", n);
+			    print_binary(98);
 
-		        n = binary_to_uint("101");
+			        printf("\n");
 
-			    printf("%u\n", n);
+				    print_binary(1024);
 
-			        n = binary_to_uint("1e01");
+				        printf("\n");
 
-				    printf("%u\n", n);
+					    print_binary((1 << 10) + 1);
 
-				        n = binary_to_uint("1100010");
+					        printf("\n");
 
-					    printf("%u\n", n);
-
-					        n = binary_to_uint("0000000000000000000110010010");
-
-						    printf("%u\n", n);
-
-						        return (0);
+						    return (0);
 
 }
