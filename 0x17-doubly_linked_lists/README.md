@@ -8,3 +8,5 @@ File: 3-add_dnodeint_end.c is a function that adds a new node at the end of a dl
 
 File: 4-free_dlistint.c is a function that frees a dlistint_t list.
 
+File: 5-get_dnodeint.c is a function that returns the nth node of a dlistint_t linked list.
+
