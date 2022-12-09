@@ -6,3 +6,5 @@ File: 2-add_dnodeint.c is a function that adds a new node at the beginning of a 
 
 File: 3-add_dnodeint_end.c is a function that adds a new node at the end of a dlistint_t list.
 
+File: 4-free_dlistint.c is a function that frees a dlistint_t list.
+
