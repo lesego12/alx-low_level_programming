@@ -14,3 +14,5 @@ File: 6-sum_dlistint.c is a function that returns the sum of all the data (n) of
 
 File: 7-insert_dnodeint.c is a function that inserts a new node at a given position.
 
+File: 8-delete_dnodeint.c is a function that deletes the node at index index of a dlistint_t linked list.
+
